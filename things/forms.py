@@ -8,4 +8,5 @@ class ThingForm(forms.ModelForm):
         model = Thing
         fields = ["name","description","quantity"]
         widgets = {"description":forms.Textarea(),"quantity":forms.NumberInput()}
+    
 # Create your forms here.
